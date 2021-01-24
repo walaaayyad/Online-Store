@@ -9,8 +9,8 @@
     <link href="./CSS/style.css" rel="stylesheet">
 
 </head>
-<body>
-    <!-- Start Upper Bar -->
+    <body>
+         <!-- Start Upper Bar -->
     <div class="upperBar">
         <div class="container-fluid">
             <div class="row">
@@ -34,7 +34,9 @@
     <!-- Start Navbar Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid"> <!--[fluid] make container take full width -->
-                <a class="navbar-brand brand" href="#"><span>Shop</span><span>Online</span></a>
+                <a class="navbar-brand brand" href="#">
+                    <img src="./icons/—Pngtree—shop logo vector template design_4146475.png" >
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -66,25 +68,59 @@
     </div>
     <!-- End Navbar Bar -->
 
-    <!-- Start Header -->
-    <div class="header">
-        <div class="headerSidePage">
-            <div class="innerPage container">
-                <h1>Welcome</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure inventore earum nobis sunt. Vel dolorem dolor excepturi rerum reiciendis. Voluptatem.</p>
-                <div class="container btns">
-                    <button type="button" class="btn btn-outline-light">MAN</button>
-                    <button type="button" class="btn btn-outline-light">WOMAN</button>
-                    <button type="button" class="btn btn-outline-light">KIDS</button>
+    <!-- Start Header Bar Section-->
+    <section class="header">
+        <div class="container">
+            
+            <div class="headerSidePage">
+                <div class="innerPage">
+                    <div class="container row">
+                        <div class="col"><h1>WA STORE</h1></div>
+                        <!--Start Carousel for header text-->
+                        <div id="headerCarousel" class="carousel slide col" data-ride="carousel">
+                        
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                    <p>first new text slide</p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    <br>Perferendis labore suscipit debitis 
+                                    <br>necessitatibus tenetur earum eum quos.
+                            </div>
+                            <div class="carousel-item">
+                                    <p>this is second slide</p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    <br>Perferendis labore suscipit debitis 
+                                    <br>necessitatibus tenetur earum eum quos.
+                            </div>
+                            <div class="carousel-item">
+                                    <p>last text slide</p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    <br>Perferendis labore suscipit debitis 
+                                    <br>necessitatibus tenetur earum eum quos.
+                            </div>
+                            </div>
+
+                        </div>
+                        <!--End Carousel for header text-->
+
+                        <!--Start header three buttons-->
+                        <div class="container btns col">
+                            <button type="button" class="btn btn-outline-light">MAN</button>
+                            <button type="button" class="btn btn-outline-light">WOMAN</button>
+                            <button type="button" class="btn btn-outline-light">KIDS</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="img"></div>
-    </div>
-    <!-- End Header -->
-   
-      <script src="./JS/jquery-3.5.1.js"></script>
-      <script src="./JS/bootstrap.min.js"></script>
-      <script src="./JS/app.js"></script>
-</body>
+        
+    </section>
+    <!-- End Header Bar Section-->
+ 
+        <script src="./JS/jquery-3.5.1.js"></script>
+        <script src="./JS/bootstrap.min.js"></script>
+        <script src="./JS/app.js"></script>
+    </body>
 </html>
+
+<!-- <a href='https://pngtree.com/so/logo-icons'>logo icons png from pngtree.com</a> -->
