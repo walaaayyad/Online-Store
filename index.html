@@ -20,7 +20,7 @@
                 </div>
                 
                 <div class="col small text-center"> <!--[small] to make font smaller/ [text-center] to align text to center-->
-                    <span class="redColor">SALE Up To 50%</span>
+                    <span class="saleText"><b>SALE Up To 50%</b></span>
                 </div>
                 <div class="col text-right"> <!--[text-right] to align text to the right side-->
                     <span><img src="/icons/cart-arrow-down-solid.svg" style="width: 20px; height: 20px; margin: 5px;"></span>
@@ -69,31 +69,32 @@
     <!-- End Navbar Bar -->
 
     <!-- Start Header Bar Section-->
-    <section class="header">
+    <div class="header">
         <div class="container">
             
             <div class="headerSidePage">
                 <div class="innerPage">
                     <div class="container row">
-                        <div class="col"><h1>WA STORE</h1></div>
+                        <div class="col"><h1><i>MyStyle</i></h1></div>
+
                         <!--Start Carousel for header text-->
                         <div id="headerCarousel" class="carousel slide col" data-ride="carousel">
                         
                             <div class="carousel-inner">
                             <div class="carousel-item active">
-                                    <p>first new text slide</p>
+                                    <h5>first slide</h5>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     <br>Perferendis labore suscipit debitis 
                                     <br>necessitatibus tenetur earum eum quos.
                             </div>
                             <div class="carousel-item">
-                                    <p>this is second slide</p>
+                                    <h5>this is second slide</h5>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     <br>Perferendis labore suscipit debitis 
                                     <br>necessitatibus tenetur earum eum quos.
                             </div>
                             <div class="carousel-item">
-                                    <p>last text slide</p>
+                                    <h5>last text slide</h5>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     <br>Perferendis labore suscipit debitis 
                                     <br>necessitatibus tenetur earum eum quos.
@@ -109,13 +110,49 @@
                             <button type="button" class="btn btn-outline-light">WOMAN</button>
                             <button type="button" class="btn btn-outline-light">KIDS</button>
                         </div>
+                        <!--End header three buttons-->
                     </div>
                 </div>
             </div>
         </div>
         
-    </section>
+    </div>
     <!-- End Header Bar Section-->
+
+    <!--Start Second Section-->
+    <div class="secondSection">
+        <div class="container">
+            <div class="menCard row py-3 shadow p-3 mb-5 rounded">
+                <div class="col-sm-6">
+                    <div>
+                        <img src="/images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg" alt="men">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-center">
+                        <div class="h3 text-uppercase font-weight-bold mt-5">men</div>
+                        <div class="num two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit hic labore velit vitae doloremque optio beatae, nobis dolor recusandae? Autem dolore eius beatae aspernatur commodi id dolorum natus quasi.</div>
+                        <button type="button" class="btn btn-outline-dark mt-3">Men</button>
+                    </div>
+                </div>
+            </div>
+            <div class="womenCard row py-3 shadow p-3 mb-5 rounded">
+                <div class="col-sm-6 order-md-2"> <!--use order-md-* to change order of div-->
+                    <div>
+                        <img src="/images/women/tamara-bellis-IwVRO3TLjLc-unsplash.jpg" alt="men">
+                    </div>
+                </div>
+                <div class="col-sm-6 order-md-1"> <!--use order-md-* to change order of div-->
+                    <div class="text-center">
+                        <div class="h3 text-uppercase font-weight-bold mt-5">women</div>
+                        <div class="num two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit hic labore velit vitae doloremque optio beatae, nobis dolor recusandae? Autem dolore eius beatae aspernatur commodi id dolorum natus quasi.</div>
+                        <button type="button" class="btn btn-outline-dark mt-3">Women</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Second Section-->
  
         <script src="./JS/jquery-3.5.1.js"></script>
         <script src="./JS/bootstrap.min.js"></script>
