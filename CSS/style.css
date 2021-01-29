@@ -126,6 +126,12 @@ h5::after {
 .menCard {
     background-color: #857d7d36;
 }
+.menImg {
+    background-image: url('/images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
 .womenCard {
     background-color: #cc9c9c48;
 }
