@@ -84,7 +84,7 @@ h5::after {
     width: 100%;
     color: #fff;
     background-color: #5a3643b0;
-    background-image: url(../images/heather-ford-5gkYsrH_ebY-unsplash.jpg);
+    background-image: url('../images/heather-ford-5gkYsrH_ebY-unsplash.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -94,13 +94,13 @@ h5::after {
 .btns {
     margin-top: 20px;
 }
-.img {
+/* .img {
     height: inherit;
     width: 98%;
     position: absolute;
-    background-image: url(../images/heather-ford-5gkYsrH_ebY-unsplash.jpg);
+    background-image: url('./images/heather-ford-5gkYsrH_ebY-unsplash.jpg');
     background-size: cover;
-}
+} */
 /*** start header Carousel ***/
 .headerCarText::before {
     content: "50%";
@@ -124,12 +124,12 @@ h5::after {
 .menCard {
     background-color: #857d7d36;
 }
-.menImg {
+/* .menImg {
     background-image: url('../images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
     background-size: cover;
     height: 300px;
     width: 100%;
-}
+} */
 .womenCard {
     background-color: #cc9c9c48;
 }
