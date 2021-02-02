@@ -83,10 +83,6 @@ h5::after {
 .innerPage {
     width: 100%;
     color: #fff;
-    /*display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;*/
     background-color: #5a3643b0;
     background-image: url(../images/heather-ford-5gkYsrH_ebY-unsplash.jpg);
     background-size: cover;
@@ -94,9 +90,6 @@ h5::after {
 }
 .title {
     flex-grow: 0.4;
-}
-.innerPage .container {
-   /* flex-direction: column;*/
 }
 .btns {
     margin-top: 20px;
@@ -132,7 +125,7 @@ h5::after {
     background-color: #857d7d36;
 }
 .menImg {
-    background-image: url('/images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
+    background-image: url('./images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
     background-size: cover;
     height: 300px;
     width: 100%;
