@@ -160,11 +160,17 @@ h5::after {
 
 /*** end fourth section ***/
 .fourthSection {
-    height: 700px;
     width: 100%;
     background-color: #fff;
 }
-.fourthSection img{
+.fourthSection hr {
+    border-top: 1.5px solid #132743;
+}
+.fourthSection .title {
+    color: #ef4f4fbd;
+    text-shadow: 2px 2px 4px #000000b7; /*text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;*/
+}
+.fourthSection img {
     height: 350px;
     width: 300px;
 }
@@ -188,6 +194,17 @@ h5::after {
 }
 
 /*** end fourth section ***/
+
+/*** start fifth section ***/
+.fifthSection {
+    background-color: #ebaaaa77;
+}
+.fifthSection .title {
+    text-shadow: 2px 2px 4px #000000b7;
+}
+/*** end fifth section ***/
+
+
 
 /*
 ****************************************
