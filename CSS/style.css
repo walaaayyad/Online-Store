@@ -243,6 +243,11 @@ h5::after {
     .fifthSection .img5 {
         height: auto;
     }
+    .fifthSection .text {
+        font-size: small;
+        right: 17%;
+        margin-top: 12%;
+    }
 }
 
 /* Small devices (landscape phones, 545 and up) */
@@ -256,6 +261,9 @@ h5::after {
 @media (min-width: 768px) {  
     .fifthSection .img5 {
         height: 132px;
+    }
+    .fifthSection .text {
+        font-size: inherit;
     }
   }
    
