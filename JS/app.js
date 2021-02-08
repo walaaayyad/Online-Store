@@ -40,3 +40,38 @@ return;
         }
     }
 })
+
+const isElementInViewPort= (element, className)=> $(window).scroll(function() {
+    let topElement = $(element).offset().top,
+        bottomElement = $(element).offset().top + $(element).outerHeight(),
+        bottomScreen = $(window).scrollTop() + $(window).innerHeight(),
+        topScreen = $(window).scrollTop();
+
+    if ((bottomScreen > topElement) && (topScreen < bottomElement)){
+        $(element).addClass('animate__animated '+ className);
+    } 
+});
+
+isElementInViewPort('.menCard', 'animate__fadeInLeft');
+isElementInViewPort('.womenCard', 'animate__fadeInRight');
+isElementInViewPort('#sec5Text', 'animate__fadeInLeft');
+
+
+/******** DEV FUNCTIONS TO REUSE ********/
+/*
+1- Function to check if the element appears on the view port when scroll or not
+
+$(window).scroll(function() {
+    var topElement = $("#element").offset().top;
+    var bottomElement = $("#element").offset().top + $("#element").outerHeight();
+    var bottomScreen = $(window).scrollTop() + $(window).innerHeight();
+    var topScreen = $(window).scrollTop();
+
+    if ((bottomScreen > topElement) && (topScreen < bottomElement)){
+        //do something
+    } else {
+        //do something
+    }
+});
+
+*/

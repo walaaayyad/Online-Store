@@ -2,7 +2,9 @@
 first color: #132743;
 second color: #ef4f4f;
 */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -123,6 +125,8 @@ h5::after {
 }
 .menCard {
     background-color: #857d7d36;
+    animation-delay: 1s;
+    animation-duration: 2s;
 }
 /* .menImg {
     background-image: url('../images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
@@ -132,6 +136,8 @@ h5::after {
 } */
 .womenCard {
     background-color: #cc9c9c48;
+    animation-delay: 2s;
+    animation-duration: 2s;
 }
 /* .secondSection .container {
     height: 300px;
@@ -212,6 +218,8 @@ h5::after {
     right: 19%;
     margin-top: 10%;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.726);
+    animation-delay: 1s;
+    animation-duration: 2s;
 }
 
 
@@ -236,6 +244,9 @@ h5::after {
     .h1 {
         font-size: 1.5rem;
     }
+    .secTwoImg {
+        margin-top: 20%;
+    }
     .btn:not(:disabled):not(.disabled) {
         font-size: x-small;
         padding: 0 6px;
@@ -254,6 +265,10 @@ h5::after {
 @media (min-width: 545px) {  
     .h1 {
         font-size: 2rem;
+    }
+    .secTwoImg {
+        height: 300px;
+        margin-top: 10%;
     }
  } 
 
