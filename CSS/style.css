@@ -9,32 +9,19 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 4000px;
 }
-h2 {
-    color: #b5251a;
-    margin: 25px;
-}
-h2::after {
+h3::after {
     display: block;
     content: '';
-    margin: 0 auto;
-    margin-top: 10px;
-    background-color: #b5251a;
-    height: 2px;
-    width: 100px;
-}
-h5::after {
-    display: block;
-    content: '';
-    margin: 0 auto;
+    margin: 5px auto;
     margin-top: 10px;
     background-color: #fff;
     height: 2px;
     width: 100px;
+
 }
 
-/*** start upper bar ***/
+/******************** start upper bar ********************/
 .upperBar {
     background-color: #132743;
     color: rgba(255, 255, 255, 0.589);
@@ -45,9 +32,9 @@ h5::after {
     color: #b5251a;
 }
 
-/*** end upper bar ***/
+/******************** end upper bar ********************/
 
-/*** start navbar ***/
+/********************* start navbar *********************/
 .navbar {
     z-index: 200;
     height: 70px;
@@ -67,9 +54,9 @@ h5::after {
 .navbar-collapse {
     flex-grow: inherit; /*To make navbar items go to the right side*/
 }
-/*** end navbar ***/
+/********************* end navbar *********************/
 
-/*** start header Section ***/
+/**************** start header Section ****************/
 .header {
     height: 80vh;
     display: flex;
@@ -86,7 +73,7 @@ h5::after {
     width: 100%;
     color: #fff;
     background-color: #5a3643b0;
-    background-image: url('../images/heather-ford-5gkYsrH_ebY-unsplash.jpg');
+    background-image: url('../images/women/content-pixie-ZB4eQcNqVUs-unsplash.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -96,28 +83,19 @@ h5::after {
 .btns {
     margin-top: 20px;
 }
-/* .img {
-    height: inherit;
-    width: 98%;
-    position: absolute;
-    background-image: url('./images/heather-ford-5gkYsrH_ebY-unsplash.jpg');
-    background-size: cover;
-} */
-/*** start header Carousel ***/
+
+/****** start header Carousel ******/
 .headerCarText::before {
     content: "50%";
     background-color: #ef4f4f;
     color: red;
     font-size: 80px;
-    font-weight: 800;
-   
+    font-weight: 800; 
 }
+/******* end header Carousel *******/
+/********************** end header Section ***********************/
 
-/*** end header Carousel ***/
-
-/*** end header Section ***/
-
-/*** start secondSection ***/
+/********************** start secondSection **********************/
 .secondSection {
     background-color: #eee;
     width: 100%;
@@ -126,29 +104,20 @@ h5::after {
 .menCard {
     background-color: #857d7d36;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
-/* .menImg {
-    background-image: url('../images/men/jonathan-francisca-YHbcum51JB0-unsplash.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-} */
 .womenCard {
     background-color: #cc9c9c48;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-duration: 1s;
 }
-/* .secondSection .container {
-    height: 300px;
-} */
 .secondSection img {
     width: 100%;
     height: 100%;
 }
-/*** end secondSection ***/
+/*********************** end secondSection ***********************/
 
-/*** start third section ***/
+/********************** start third section **********************/
 .thirdSection {
     background-color: #eee;
 }
@@ -162,9 +131,9 @@ h5::after {
     background-attachment: fixed;
     color: #fff;
 }
-/*** end third section ***/
+/********************** end third section ***********************/
 
-/*** end fourth section ***/
+/********************** end fourth section **********************/
 .fourthSection {
     width: 100%;
     background-color: #fff;
@@ -173,8 +142,7 @@ h5::after {
     border-top: 1.5px solid #132743;
 }
 .fourthSection .title {
-    color: #ef4f4fbd;
-    text-shadow: 2px 2px 4px #000000b7; /*text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;*/
+    background: linear-gradient(to right, #CE637A 0%, #A47669 50%, #949494 100%);
 }
 .fourthSection img {
     height: 350px;
@@ -199,9 +167,9 @@ h5::after {
     margin-top: 0;
 }
 
-/*** end fourth section ***/
+/********************** end fourth section ***********************/
 
-/*** start fifth section ***/
+/********************** start fifth section **********************/
 .fifthSection {
     background-color: #ebaaaa77;
 }
@@ -219,11 +187,11 @@ h5::after {
     margin-top: 10%;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.726);
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 
-/*** end fifth section ***/
+/********************** end fifth section **********************/
 
 
 
@@ -236,7 +204,7 @@ h5::after {
 /* Extra Small devices (landscape phones, small than 544) */
 @media (max-width: 544px) { 
     .header {
-        height: 100vh;
+        height: inherit;
     }
     .title {
         flex-grow: 0.2;
@@ -248,16 +216,21 @@ h5::after {
         margin-top: 20%;
     }
     .btn:not(:disabled):not(.disabled) {
-        font-size: x-small;
+        font-size: large;
         padding: 0 6px;
+        margin-bottom: 2rem;
+    }
+    .carousel {
+        margin: 2rem auto;
     }
     .fifthSection .img5 {
         height: auto;
     }
     .fifthSection .text {
-        font-size: small;
+        font-size: 110%;
+        height: inherit;
         right: 17%;
-        margin-top: 12%;
+        margin-top: 20px;
     }
 }
 
@@ -273,7 +246,14 @@ h5::after {
  } 
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 767px) { 
+    .header .btn {
+        margin: 7px;
+        font-size: larger;
+    }
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        font-size: 1.5rem;
+    }
     .fifthSection .img5 {
         height: 132px;
     }
@@ -284,8 +264,27 @@ h5::after {
    
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        font-size: 2rem;
+    }
+    .header .btn {
+       padding: 5px 50px;
+    }
+    .secondSection .btn {
+        padding: 5px 50px;
+    }
+    .thirdSection p {
+        font-size: 1.2rem;
+        padding: 20px;
+    }
     .fifthSection .img5 {
         height: 180px;
+    }
+    .fifthSection p {
+        font-size: 1.2rem;
+    }
+    .fifthSection .btn {
+        padding: 5px 50px;
     }
 }
 
