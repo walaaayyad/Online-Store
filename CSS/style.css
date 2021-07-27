@@ -20,7 +20,9 @@ h3::after {
     width: 100px;
 
 }
-
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    position: relative;
+}
 /******************** start upper bar ********************/
 .upperBar {
     background-color: #132743;
